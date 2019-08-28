@@ -1,0 +1,174 @@
+header{
+	width: 1200px;
+	margin: 0 auto;
+}
+.bottom{
+	width:1115px;
+	margin: 0 auto;
+}
+/*banner图*/
+.banner{
+	position: relative;
+}
+.banner>img{
+	width: 100%;
+	border-bottom: 1px solid #fdf1bf;
+	/*height:400px ;*/
+	height: 100%;
+}
+.banner .block{
+	position: absolute;
+	top: 0;
+	/*height: 400px;*/
+	height: 100%;
+	background: rgba(0,0,0,.5);
+	width: 100%;
+}
+.banner .center{
+	position: absolute;
+	top: 0;
+	color: #fff;
+	width: 680px;
+	left: 50%;
+	top: 50%;
+	margin-left: -340px;
+	margin-top: -35px;
+}
+.banner .line .line_right{
+	width: 284px;
+	height: 1px;
+	background: #fff;
+}
+.banner .line{
+	height: 35px;
+	font-size: 28px;
+}
+.banner .line:nth-child(1){
+	float: right;
+}
+.banner .line:nth-child(2){
+	clear: right;
+}
+.banner .line span{
+	display: inline-block;
+	vertical-align: middle;
+}
+/*卡布基诺内容*/
+.capp_content,.capp,.bottom{
+	width: 1000px;
+	margin: 0 auto;
+}
+.capp{
+	margin-top: 36px;
+	position: relative;
+	overflow: hidden;
+	border-bottom: 1px solid #d5d5d5;
+}
+.capp span{
+	width: 2px;
+	height: 9px;
+	background: #866961;
+	position: absolute;
+	top: 5px;
+}
+.capp .capp_left h3{
+	float: left;
+	margin-left: 7px;
+	font: 400 16px/1 "";
+	cursor: pointer;
+}
+.capp p{
+	clear: left;
+	color: #b8b8b8;
+	font-size: 12px;
+}
+.capp .capp_right a{
+	display:inline-block;
+	text-decoration: none;
+	color: #333;
+	font-size: 12px;
+}
+.capp .capp_right a.active{
+	color: #a9a9a9;
+}
+.capp .capp_left{
+	float: left;
+}
+.capp .capp_right{
+	float: right;
+}
+/*capp的内容*/
+.content{
+	position: relative;
+	overflow: hidden;
+	height: 625px;
+}
+.capp_content{
+	margin-top: 25px;
+	overflow: hidden;
+	margin-bottom: 36px;
+	position: absolute;
+	right: 0;
+	left: 0;
+	background: #fff;
+}
+.capp_content.active{
+	z-index: 10;
+}
+.capp_content img{
+	width: 374px;
+	height: 600px;
+	float: left;
+	margin-right: 24px;
+}
+.capp_content .capp_content_right {
+	float: right;
+	width: 600px;
+	position: relative;
+}
+.capp_content .capp_content_right .capp_content_right_top p{
+	font: 12px/24px "微软雅黑";
+	color: #c6c6c6;
+	text-indent: 2em;
+	margin-bottom: 36px;
+	text-align: justify;
+}
+.capp_content .capp_content_right .capp_content_right_top h3{
+	font:  400 16px/1 "";
+}
+.capp_content .capp_content_right .capp_content_right_top span{
+	font:12px/1 "";
+	color: #c6c6c6;
+	margin-top: 9px;
+	margin-bottom: 30px;
+}
+/*capp的内容下面的内容*/
+.capp_content_right_bottom img{
+	width: 145px;
+	height: 220px;
+	float: none;
+}
+.capp_content_right_bottom{
+	position: absolute;
+	top:304px ;
+	z-index: 99;
+}
+.capp_content_right_bottom .pic_list{
+	width: 145px;
+	color: #333;
+	text-decoration: none;
+	text-align: center;
+	height: 294px;
+	border: 1px solid #333;
+	float: left;
+	transition: all 2s;
+}
+.capp_content_right_bottom .pic_list h3{
+	font:  400 16px/1 "";
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.capp_content_right_bottom .pic_list p{
+	font: 12px/24px "微软雅黑";
+	color: #898989;
+}

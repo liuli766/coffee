@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/Contact us.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/animate.css"/>
+		<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=OOzK10Ihl60wyba7F34yjVLzDgkMA9Bo"></script>
+	<script type="text/javascript" src="http://api.map.baidu.com/library/SearchInfoWindow/1.5/src/SearchInfoWindow_min.js"></script>
+	<link rel="stylesheet" href="http://api.map.baidu.com/library/SearchInfoWindow/1.5/src/SearchInfoWindow_min.css" />
+	<link rel="stylesheet" type="text/css" href="../css/mapp.css"/>
+	</head>
+	<body>
+		<!--头部-->
+		<header>
+			<nav class="fr">
+				<a href="../index.html">首页</a>
+				<a href="about.html">关于我们</a>
+				<a href="product.html">产品介绍</a>
+				<a href="team.html">我们团队</a>
+				<a href="#"class="active">联系我们</a>
+			</nav>			
+		</header>
+		<!--banner图-->
+		<div class="banner">
+			<img src="../img/banner1.png"/>
+			<div class="block"></div>
+			<div class="center">
+				<div class="line">
+				<span>Contact</span>
+				<span class="line_right"></span>
+			</div>
+			<div class="line">
+				<span class="line_right"></span>
+				<span>团队介绍 Us</span>
+				</div>
+			</div>			
+		</div>
+		<!--联系我们内容-->
+		<div class="capp">
+			<div class="capp_left">
+				<span></span>
+				<h3>联系我们</h3>
+				<p>Cappuccino</p>
+			</div>			
+			<div class="capp_right">
+				<a href="#">当前位置</a>><a href="../index.html" class="active">首页</a>><a href="#">联系我们</a>				
+			</div>
+		</div>
+		<div class="contact">
+			<div class="map">
+				<div id="allmap">	
+				</div>
+				经度: <input id="longitude" type="text" style="width:100px; margin-right:10px;" />
+	纬度: <input id="latitude" type="text" style="width:100px; margin-right:10px;" />
+	<input type="button" value="查询" onclick="theLocation()" />
+			</div>
+			<div class="contact_right">
+				<a href="#">
+			<div class="phone">
+				<img src="../img/lian.png"/>
+				<div class="phone_r">
+					<h3>咨询热线</h3>
+					<span>Information Hotline</span>
+					<p>重庆：+86 023-867-7848</p>
+					<span>(09：30~18：30 北京时间)</span>
+				</div>				
+			</div>
+			</a>
+			<a href="#">
+			<div class="phone">
+				<img src="../img/lian2.png"/>
+				<div class="phone_r">
+					<h3>公司地址</h3>
+					<span>Company address</span>
+					<p>地址：重庆大坪龙湖时代天街3号写字楼2407室</p>
+					<span>(09：30~18：30 北京时间)</span>
+				</div>
+				
+			</div>
+			</a>
+			<a href="#">
+			<div class="phone">
+				<img src="../img/lian3.png"/>
+				<div class="phone_r">
+					<h3>公司邮箱</h3>
+					<span>E-mail</span>
+					<p>邮箱：info@haitouglobal.com</p>
+					<span>(09：30~18：30 北京时间)</span>
+				</div>				
+			</div>
+			</a>
+			</div>
+		</div>	
+		<!--底部-->
+		<footer>
+			<div class="bottom">
+				<p>Copyright © 重庆duzu有限公司 | duzu备案号 33010602001878 号 版权所有：重庆戈登有限公司</p>
+			<img src="../img/bg2.png"/>
+			</div>		
+		</footer>
+		<script src="../jquery-ui-1.10.2/jquery-1.9.1.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/map.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>
